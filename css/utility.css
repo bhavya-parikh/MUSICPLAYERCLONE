@@ -1,0 +1,55 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-item{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+
+/* Custom scrollbar styles for Chrome */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    height: 12px; /* Height of the scrollbar (for horizontal scrollbar) */
+}
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Background of the scrollbar track */
+    border-radius: 10px; /* Rounding the edges of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounding the edges of the scrollbar thumb */
+    border: 2px solid #1e1e1e; /* Adding a border to make the thumb stand out */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darker color when hovering over the scrollbar thumb */
+}
